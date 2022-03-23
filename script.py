@@ -47,10 +47,8 @@ def get_data_from_datagroup(datagroup,start, end):
     :param end: str, format "2022-02-14T09:12:28Z"
     :return:
     """
-
     url = "https://ems.enerim.com/ExternalData/DataGroups/{}?start={}&end={}".format(datagroup, start, end)
 
-    payload = {}
     headers = {
         'Authorization': 'Bearer {}'.format(token)
     }
