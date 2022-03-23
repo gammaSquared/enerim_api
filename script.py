@@ -12,11 +12,21 @@ def authenticate(usr, psw):
         "password": psw
     })
 
-    headers = {
-        'Content-Type': 'application/json'
-    }
+    headers = { 'Content-Type': 'application/json'}
 
     response = requests.request("POST", url, headers=headers, data=payload)
 
     return response.json()['token']
 
+
+def get_datagroups(token):
+    """The function retrieves the available datagroups for the current user"""
+    url = "https://ems.enerim.com/ExternalData/DataGroups
+
+    headers = {
+        'Authorization': 'Bearer {}'.format(token)
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    print(response.text)
