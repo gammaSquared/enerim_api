@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="-153">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -165,7 +165,19 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1648046851798</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Created get_data_from_datagroup function">
+      <created>1648046957154</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1648046957154</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Created get_data_from_datagroup function, v.2">
+      <created>1648047092828</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1648047092828</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -237,13 +249,14 @@
     <MESSAGE value="Add comments to functions" />
     <MESSAGE value="Created get_datagroups function" />
     <MESSAGE value="Created get_data_from_datagroup function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created get_data_from_datagroup function" />
+    <MESSAGE value="Created get_data_from_datagroup function, v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created get_data_from_datagroup function, v.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="-153">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
