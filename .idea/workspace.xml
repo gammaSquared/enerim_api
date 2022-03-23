@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b11529a-cb7e-4093-add5-05fc7faa988e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="510">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -148,12 +147,29 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1648045860336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Created get_datagroups function">
+      <created>1648046761210</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1648046761210</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Created get_data_from_datagroup function">
+      <created>1648046787025</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1648046787025</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Created get_data_from_datagroup function">
+      <created>1648046851798</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1648046851798</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -220,13 +236,14 @@
     <MESSAGE value="created authentication function in order to retrieve token" />
     <MESSAGE value="Add comments to functions" />
     <MESSAGE value="Created get_datagroups function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created get_datagroups function" />
+    <MESSAGE value="Created get_data_from_datagroup function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created get_data_from_datagroup function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="510">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

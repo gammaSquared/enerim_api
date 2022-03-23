@@ -57,4 +57,3 @@ def get_data_from_datagroup(datagroup,start, end):
 
     return (response.text)
 
-
