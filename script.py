@@ -49,9 +49,7 @@ def get_data_from_datagroup(datagroup,start, end):
     """
     url = "https://ems.enerim.com/ExternalData/DataGroups/{}?start={}&end={}".format(datagroup, start, end)
 
-    headers = {
-        'Authorization': 'Bearer {}'.format(token)
-    }
+    headers = {'Authorization': 'Bearer {}'.format(token)}
 
     response = requests.request("GET", url, headers=headers)
 
