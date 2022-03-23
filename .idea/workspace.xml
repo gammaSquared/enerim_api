@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b11529a-cb7e-4093-add5-05fc7faa988e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/enerim_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/enerim_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
     </list>
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+            <state relative-caret-position="408">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -138,7 +136,19 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1648043003911</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Created get_datagroups function">
+      <created>1648043689986</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1648043689986</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Created get_datagroups function">
+      <created>1648045860336</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1648045860336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -209,13 +219,14 @@
     <MESSAGE value="import packages" />
     <MESSAGE value="created authentication function in order to retrieve token" />
     <MESSAGE value="Add comments to functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments to functions" />
+    <MESSAGE value="Created get_datagroups function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created get_datagroups function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+        <state relative-caret-position="408">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

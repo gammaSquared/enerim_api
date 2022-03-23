@@ -2,7 +2,6 @@ import pandas as pd
 import requests
 import json
 
-pd.read(    )
 def authenticate(usr, psw):
     """
     Use this function to retrieve token that is required in order to call the API
@@ -30,7 +29,7 @@ def get_datagroups(token):
     :param token: str, the token that is retrieved by authenticate().
     :return: str, list of str.
     """
-    url = "https://ems.enerim.com/ExternalData/DataGroups
+    url = "https://ems.enerim.com/ExternalData/DataGroups"
 
     headers = {
         'Authorization': 'Bearer {}'.format(token)
@@ -38,7 +37,8 @@ def get_datagroups(token):
 
     response = requests.request("GET", url, headers=headers)
 
-    print(response.text)
+    return json.loads(response.text)
+
 
 
 
