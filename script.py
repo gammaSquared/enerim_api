@@ -40,5 +40,23 @@ def get_datagroups(token):
     return json.loads(response.text)
 
 
+def get_data_from_datagroup(datagroup,start, end):
+    """
+    :param datagroup: str, a datagroup that can be obtained by calling get_datagroups()
+    :param start: str, format "2022-02-13T09:12:28Z"
+    :param end: str, format "2022-02-14T09:12:28Z"
+    :return:
+    """
+
+    url = "https://ems.enerim.com/ExternalData/DataGroups/{}?start={}&end={}".format(datagroup, start, end)
+
+    payload = {}
+    headers = {
+        'Authorization': 'Bearer {}'.format(token)
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    return (response.text)
 
 
