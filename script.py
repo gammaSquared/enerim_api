@@ -40,7 +40,7 @@ def get_datagroups(token):
     return json.loads(response.text)
 
 
-def get_data_from_datagroup(datagroup,start, end):
+def get_data_from_datagroup(datagroup, start, end):
     """
     :param datagroup: str, a datagroup that can be obtained by calling get_datagroups()
     :param start: str, format "2022-02-13T09:12:28Z"
